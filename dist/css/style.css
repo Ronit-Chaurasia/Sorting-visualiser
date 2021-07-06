@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  overflow-x: hidden;
+}
+
+nav {
+  background: #4817e7;
+  background: linear-gradient(36deg, #4817e7 4%, #201f66 95%);
+  color: white;
+  display: grid;
+  grid-template-columns: 43% 55%;
+  -moz-column-gap: 7%;
+       column-gap: 7%;
+  -webkit-column-gap: 7%;
+  padding: 1em 2em;
+}
+nav .array-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+nav .array-inputs #size {
+  padding: 1em 0.2em;
+  display: flex;
+  justify-content: space-between;
+}
+nav .array-inputs #size p {
+  font-size: 1.2rem;
+}
+nav .array-inputs #size #a_size {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 12px;
+  background: #f0ecec;
+  outline: none;
+  transition: opacity 0.2s;
+  margin-top: 0.5em;
+}
+nav .array-inputs #size #a_size::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  background: #00e1ff;
+  cursor: pointer;
+}
+nav .array-inputs #speed {
+  padding: 1em 0.2em;
+  display: flex;
+  justify-content: space-between;
+}
+nav .array-inputs #speed p {
+  font-size: 1.2rem;
+}
+nav .array-inputs #speed #a_speed {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 12px;
+  background: #f0ecec;
+  outline: none;
+  transition: opacity 0.2s;
+  margin-top: 0.5em;
+}
+nav .array-inputs #speed #a_speed::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  background: #00e1ff;
+  cursor: pointer;
+}
+nav #a_generate {
+  border: 4px solid white;
+  color: white;
+  outline: none;
+  background-color: transparent;
+  padding: 1em 1.2em;
+  width: 50%;
+  margin-top: 2em;
+  cursor: pointer;
+  box-shadow: 0 0 25px 2px rgba(0, 0, 0, 0.644);
+  transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+nav #a_generate:hover {
+  background-color: #020086;
+  box-shadow: none;
+}
+
+.header_right {
+  display: flex;
+  flex-direction: column;
+}
+.header_right .nav-heading {
+  display: inline-block;
+  font-size: 3rem;
+  text-shadow: 5px 5px #0000005b;
+  padding: 3% 0%;
+  margin-bottom: 0.8em;
+}
+.header_right .algos {
+  display: flex;
+}
+.header_right .algos button {
+  display: inline-block;
+  background-color: transparent;
+  border: 4px solid white;
+  color: white;
+  outline: none;
+  padding: 1em 1.3em;
+  font-size: 1rem;
+  margin-right: 0.8em;
+  cursor: pointer;
+  box-shadow: 2px 2px 25px 2px rgba(0, 0, 0, 0.616);
+  transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+.header_right .algos button:hover {
+  background-color: #020086;
+  box-shadow: none;
+}
+.header_right .algos .btn_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+.header_right .algos .btn_locked:hover {
+  background-color: transparent;
+}
+.header_right .algos .btn_selected {
+  background-color: white;
+  color: #020086;
+  border: 5px double black;
+}
+.header_right .algos .btn_selected:hover {
+  background-color: white;
+}
+.header_right .algos .btn_unselected:hover {
+  background-color: #530985;
+}
+
+section {
+  width: 85%;
+  margin: 0 auto;
+}
+section #array_container {
+  display: flex;
+  height: 58vh;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
