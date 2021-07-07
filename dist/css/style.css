@@ -48,6 +48,13 @@ nav .array-inputs #size #a_size::-moz-range-thumb {
   background: #00e1ff;
   cursor: pointer;
 }
+nav .array-inputs #size #a_size::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  background: #00e1ff;
+  cursor: pointer;
+}
 nav .array-inputs #speed {
   padding: 1em 0.2em;
   display: flex;
@@ -64,6 +71,13 @@ nav .array-inputs #speed #a_speed {
   outline: none;
   transition: opacity 0.2s;
   margin-top: 0.5em;
+}
+nav .array-inputs #speed #a_speed::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  background: #00e1ff;
+  cursor: pointer;
 }
 nav .array-inputs #speed #a_speed::-moz-range-thumb {
   width: 22px;
